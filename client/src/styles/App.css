@@ -1,0 +1,14 @@
+/* App.css */
+
+.appLayout {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 200px; /* Sidebar width */
+  padding: 2rem;
+  width: calc(100% - 200px);
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f8f7f8;
+}

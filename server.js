@@ -22,7 +22,7 @@ app.get('/', (req,res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-    console.log('server running on port ${PORT}');
+    console.log('server running on port '+PORT);
 });
 
 const userSchema = new mongoose.Schema({
@@ -39,4 +39,4 @@ app.get('/getUsers', async (req,res) => {
 
 app.use('/auth', authRoutes);
 
-app.use('/api/meetings', meetingroutes);
+app.use('/api', meetingroutes);

@@ -1,0 +1,100 @@
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styles */
+  .auth-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .auth-form-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .auth-form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .auth-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Google auth button */
+  .auth-google-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #DB4437;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .auth-google-button:hover {
+    background-color: #c13b2e;
+  }
+  
+  /* Error message */
+  .auth-error {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  /* Link styles */
+  .auth-link-text {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .auth-link {
+    color: #0066cc;
+    cursor: pointer;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
